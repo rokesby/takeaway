@@ -30,7 +30,6 @@ def get_menu():
 
     Returns: (a list of strings detailing the item and the cost per unit, and maybe the availability)
         a list of strings
-        an empty list of no active tasks exist
 
 
     Side effects: 
@@ -38,7 +37,7 @@ def get_menu():
     
 ```
 
-def order_items(Order items from the menu):
+def place_order_items(Order items from the menu):
     
     Parameters: 
         task_description : A list of items that constitute the order. repeated entries indicate the order number e.g. [chicken, chicken] means two portions of the chicken dish
